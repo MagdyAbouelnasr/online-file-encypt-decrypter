@@ -1,0 +1,63 @@
+html, body {
+    background-color: cornflowerblue;
+    background-image: url("sale.jpg");
+    background-blend-mode:  overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#atf {
+    background-color: cornflowerblue;
+    background-image: url("sale.jpg");
+    background-blend-mode:  overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color:cornflowerblue;
+}
+
+.center {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.centerb {
+    display: flex;
+    justify-content: center;
+
+}
+
+label
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    Letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+label:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+#file-chosen{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stuff/encrypt.css">
+
+
+    <title>encryption</title>
+</head>
+<body>
+    <form action="/goto1" method="POST">
+        <input type="submit" id="subd" hidden/>
+        <label for="subd">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            decryption page
+        </label>
+    </form>
+
+    <div class="welcome center">Welcome to encryption page</div>
+
+    <label>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        {{.userKey}}
+    </label>
+
+    <form class="centerb" action="/uploadFile" method="POST" enctype="multipart/form-data">
+        <input type="file" id="upload" name="upload" hidden/>
+        <label for="upload">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            select file
+        </label>
+
+
+        <input type="submit" id="submt" hidden/>
+        <label for="submt">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            encrypt
+        </label>
+    </form>
+</body>
+</html>
+
+
